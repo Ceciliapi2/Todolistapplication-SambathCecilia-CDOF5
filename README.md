@@ -16,7 +16,7 @@ Puis git commit -m "Votre message"
 Et enfin git push
 Pour récupérer le code à jour vous pouvez utiliser git pull
 
-
+J'ai fait la partie 2 dans : https://github.com/suuubina/TO_DO_LIST_Subina_Suthanthiranathan_CDOF5
 
 
 Test du pull request
