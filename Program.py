@@ -29,7 +29,7 @@ def supprimer_tache():
                 break
         taches_tree.delete(selected_item)
     else:
-        messagebox.showwarning("Avertissement", "Veuillez sélectionner une commande à supprimer.")
+        messagebox.showwarning("Avertissement", "Veuillez sélectionner une commande à supprimer")
 
 def double_click_taches(event):
     selected_item = taches_tree.focus()
