@@ -29,7 +29,7 @@ def supprimer_tache():
                 break
         taches_tree.delete(selected_item)
     else:
-        messagebox.showwarning("Avertissement", "Veuillez sélectionner une commande à supprimer.")
+        messagebox.showwarning("Avertissement", "Veuillez sélectionner une commande à supprimer")
 
 def double_click_taches(event):
     selected_item = taches_tree.focus()
@@ -44,7 +44,7 @@ def double_click_taches(event):
 if __name__ == "__main__":
     
     root = tk.Tk()
-    root.title("Liste des tâches")
+    root.title("Liste des taches")
 
     scrollbar = tk.Scrollbar(root, orient="vertical")
     scrollbar.pack(side="right", fill="y")
