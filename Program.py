@@ -44,7 +44,7 @@ def double_click_taches(event):
 if __name__ == "__main__":
     
     root = tk.Tk()
-    root.title("Liste des tâches")
+    root.title("Liste des taches")
 
     scrollbar = tk.Scrollbar(root, orient="vertical")
     scrollbar.pack(side="right", fill="y")
